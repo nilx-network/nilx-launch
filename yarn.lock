@@ -155,38 +155,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@open-web3/parachain-launch@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@open-web3/parachain-launch@workspace:."
-  dependencies:
-    "@polkadot/api": ^10.9.1
-    "@polkadot/keyring": ^12.4.2
-    "@polkadot/util": ^12.4.2
-    "@polkadot/util-crypto": ^12.4.2
-    "@types/lodash": ^4.17.4
-    "@types/readline-sync": ^1.4.8
-    "@types/shelljs": ^0.8.14
-    "@types/yargs": ^17.0.32
-    "@typescript-eslint/eslint-plugin": ^7.14.1
-    "@typescript-eslint/parser": ^7.14.1
-    eslint: ^8.56.0
-    eslint-config-prettier: ^9.0.0
-    eslint-import-resolver-typescript: ^3.6.1
-    eslint-plugin-import: ^2.28.1
-    eslint-plugin-sort-imports-es6-autofix: ^0.6.0
-    lodash: ^4.17.21
-    prettier: ^3.2.5
-    readline-sync: ^1.4.10
-    shelljs: ^0.8.5
-    ts-node: ^10.9.1
-    typescript: ~5.5.2
-    yaml: ^2.4.2
-    yargs: ^17.7.2
-  bin:
-    parachain-launch: ./bin/parachain-launch
-  languageName: unknown
-  linkType: soft
-
 "@polkadot/api-augment@npm:10.11.1":
   version: 10.11.1
   resolution: "@polkadot/api-augment@npm:10.11.1"
@@ -2294,6 +2262,38 @@ __metadata:
   checksum: 23ad088b08f898fc9b53011d7bb78ec48e79de7627e01ab5518e806033861bef68d5b0cd0e2205c2f36690ac9571ff6bcb05eb777ced2eeda8d4ac5b44592c3d
   languageName: node
   linkType: hard
+
+"nilx-launch@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "nilx-launch@workspace:."
+  dependencies:
+    "@polkadot/api": ^10.9.1
+    "@polkadot/keyring": ^12.4.2
+    "@polkadot/util": ^12.4.2
+    "@polkadot/util-crypto": ^12.4.2
+    "@types/lodash": ^4.17.4
+    "@types/readline-sync": ^1.4.8
+    "@types/shelljs": ^0.8.14
+    "@types/yargs": ^17.0.32
+    "@typescript-eslint/eslint-plugin": ^7.14.1
+    "@typescript-eslint/parser": ^7.14.1
+    eslint: ^8.56.0
+    eslint-config-prettier: ^9.0.0
+    eslint-import-resolver-typescript: ^3.6.1
+    eslint-plugin-import: ^2.28.1
+    eslint-plugin-sort-imports-es6-autofix: ^0.6.0
+    lodash: ^4.17.21
+    prettier: ^3.2.5
+    readline-sync: ^1.4.10
+    shelljs: ^0.8.5
+    ts-node: ^10.9.1
+    typescript: ~5.5.2
+    yaml: ^2.4.2
+    yargs: ^17.7.2
+  bin:
+    nilx-launch: ./bin/nilx-launch
+  languageName: unknown
+  linkType: soft
 
 "nock@npm:^13.3.8":
   version: 13.4.0
